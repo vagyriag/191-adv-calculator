@@ -1,0 +1,25 @@
+.Button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid lightgray;
+}
+.Button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.Button--number{
+    font-weight: bold;
+    background-color: white;
+}
+
+.Button--operation{
+    background-color: lightgray;
+}
+.Button--operation:hover{
+    background: lightskyblue;
+}
+
+.Button--controller{
+    background-color: lightgray;
+}

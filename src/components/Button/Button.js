@@ -3,7 +3,9 @@ import './Button.css';
 
 function Button (props) {
     function handleClick() {
-        props.onClick(props.value);
+        if(typeof props.onClick === 'function'){
+            props.onClick(props.value);
+        }
     }
     return <button className={`Button Button--${props.type}`}
         onClick={handleClick}>
